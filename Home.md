@@ -1,5 +1,5 @@
 # GoDoc.org documentation
 
-- [[Linking to source|SourceLink]]
+- [[Source code links|Source-Code-Links]]
 - [[Plain text interface|PlainText]]
 - [[API|API]]
