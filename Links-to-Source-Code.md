@@ -1,5 +1,3 @@
-# Links to Source Code
-
 Package documentation pages automatically link identifiers and file names to source code hosted on version control services known to GoDoc.org. 
 
 The go-source meta tag is used to specify links to source code on services not known to GoDoc.org. 
