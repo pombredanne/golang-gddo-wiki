@@ -10,4 +10,4 @@
 
 Optional:
 
-- Create the file gddo-server/config.go using the template in [gddo-server/config.go.template](gddo-server/config.go.template).
+- Create the file gddo-server/config.go using the template in [gddo-server/config.go.template](https://github.com/golang/gddo/blob/master/gddo-server/config.go.template).
