@@ -1,4 +1,4 @@
-- Install and run [Redis 2.8.x](http://redis.io/download). The redis.conf file included in the Redis distribution is suitable for development.
+- Install and run [the latest stable version of Redis]. The redis.conf file included in the Redis distribution is suitable for development.
 - Install Go 1.5.
 - Install and run the server:
 
