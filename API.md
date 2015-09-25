@@ -17,7 +17,7 @@ The GoDoc API is comprised of these endpoints:
 }
 ```
 
-**api.godoc.org/packages**&mdash;Returns all indexed packages, in JSON format.
+**api.godoc.org/packages**&mdash;Returns all packages, in JSON format. The godoc.org/-/index page shows a subset of the packages. This API returns all packages.
 
 ```json
 {
