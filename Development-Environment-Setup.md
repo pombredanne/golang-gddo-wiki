@@ -11,3 +11,5 @@
 Optional:
 
 - Create the file gddo-server/config.go using the template in [gddo-server/config.go.template](https://github.com/golang/gddo/blob/master/gddo-server/config.go.template).
+
+- If working on any of the templates you will want to provides the path to you assets folder. Passing the -assets flag to gddo-server with the path to your assets folder will allow you to view your changes
