@@ -2,8 +2,8 @@ GoDoc provides plain text output for integration with shell scripts. Use the HTT
 
 Search for packages with the term 'sql':
 
-    $ curl -H 'Accept: text/plain' http://godoc.org/?q=sql
+    $ curl -H 'Accept: text/plain' https://godoc.org/?q=sql
 
 Get the documentation for the standard math package:
 
-    $ curl -H 'Accept: text/plain' http://godoc.org/math
+    $ curl -H 'Accept: text/plain' https://godoc.org/math
