@@ -1,5 +1,5 @@
 - Install and run [the latest stable version of Redis](http://redis.io/download). The redis.conf file included in the Redis distribution is suitable for development.
-- Install Go 1.5.
+- Install Go 1.6.
 - Install and run the server:
 
         $ go get github.com/golang/gddo/gddo-server
