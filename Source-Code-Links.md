@@ -26,7 +26,7 @@ following substitutions are made in the file template:
 
 _Note:_ The [current implementation](https://github.com/golang/gddo/blob/d5e22321f6d50a058e175b602f2cc55a66a62a18/gosrc/gosrc.go#L379-L390)
 imposes a few additional restrictions to the description above. In order for the file field to have an
-effect (and not have unexpected adverse effects), these rules must be followed until the implementation is fixed:
+effect (and not have unexpected adverse effects), these rules must be followed until the implementation is fixed (see [#385](https://github.com/golang/gddo/issues/385)):
 
 - The file field URL template must contain at least one instance of `{file}`.
 - If a `#` is present in the URL template, all instances of `{file}` must come before the `#`.
