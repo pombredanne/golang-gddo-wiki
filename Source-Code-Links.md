@@ -24,13 +24,11 @@ following substitutions are made in the file template:
     {file} - The name of the file
     {line} - The decimal line number.
 
-_Note:_ The [current implementation](https://github.com/golang/gddo/blob/d5e22321f6d50a058e175b602f2cc55a66a62a18/gosrc/gosrc.go#L379-L390)
+_Note:_ The [current implementation](https://github.com/golang/gddo/blob/aaf246516d11966c40d171629ff6f8dd190e9e7c/gosrc/gosrc.go#L389-L408)
 imposes a few additional restrictions to the description above. In order for the file field to have an
-effect (and not have unexpected adverse effects), these rules must be followed until the implementation is fixed (see [#385](https://github.com/golang/gddo/issues/385)):
+effect (and not have unexpected adverse effects), these rules must be followed until the implementation is fixed (see [TODO comment](https://github.com/golang/gddo/blob/aaf246516d11966c40d171629ff6f8dd190e9e7c/gosrc/gosrc.go#L387) and [comments in #385](https://github.com/golang/gddo/issues/385#issuecomment-195662564) for context):
 
 - The file field URL template must contain at least one instance of `{file}`.
-- If a `#` is present in the URL template, all instances of `{file}` must come before the `#`.
-  All instances of `{file}` that come after `#` will not be substituted.
 - The `{line}` component is optional, but if it is to be included, then the file field
   must contain `#` and the instance of `{line}` must be after the `#`. Instances of `{line}` that come
   before `#` will not be substituted.
