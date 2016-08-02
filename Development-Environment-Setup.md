@@ -1,9 +1,12 @@
 - Install and run [the latest stable version of Redis](http://redis.io/download). The redis.conf file included in the Redis distribution is suitable for development.
 - Install Go 1.6.
-- Install and run the server:
-
+- Download and install Cloud SDK at https://cloud.google.com/sdk/docs/
+- Add any OS environment variables needed under the env_varialbles section in the included app.yaml file
+- Get the source code:
         $ go get github.com/golang/gddo/gddo-server
-        $ gddo-server
+- Run the server:
+        $ dev_appserver.py path/to/app.yaml
+- The dev_appserver automatically installs the newest version and run the local dev environment for access to local version of Search API, etc. It will also redeploy whenever it detects any source code change.
 
 - Browse to [http://localhost:8080/](http://localhost:8080/)
 - Enter an import path to have the server retrieve & display a package's documentation
