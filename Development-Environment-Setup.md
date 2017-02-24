@@ -8,7 +8,7 @@
 
 - Run the server:
 
-        $ dev_appserver.py $GOPATH/src/github.com/golang/gddo/gddo-server/app.yaml
+        $ dev_appserver.py $GOPATH/src/github.com/golang/gddo/gddo-server
 - The dev_appserver automatically installs the newest version and run the local dev environment for access to local version of Search API, etc. It will also redeploy whenever it detects any source code change.
 
 - Browse to http://localhost:8080/github.com/golang/gddo/gddo-server
