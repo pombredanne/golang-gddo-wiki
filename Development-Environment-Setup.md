@@ -4,14 +4,14 @@
 - Add any OS environment variables needed under the env_varialbles section in the included app.yaml file
 - Get the source code:
 
-        $ go get github.com/golang/gddo/gddo-server
+        $ git clone https://go.googlesource.com/gddo $GOPATH/src/github.com/golang/gddo
+
 - Run the server:
 
         $ dev_appserver.py $GOPATH/src/github.com/golang/gddo/gddo-server/app.yaml
 - The dev_appserver automatically installs the newest version and run the local dev environment for access to local version of Search API, etc. It will also redeploy whenever it detects any source code change.
 
-- Browse to [http://localhost:8080/](http://localhost:8080/)
-- Enter an import path to have the server retrieve & display a package's documentation
+- Browse to http://localhost:8080/github.com/golang/gddo/gddo-server
 
 If you want to work on a fork of the server code, clone your forked repo to $GOPATH/src/github.com/golang/gddo and work from there. Do not use 'go get' to get your fork. Internal package references and the default path for assets assume that the code is located at $GOPATH/src/github.com/golang/gddo.
 
