@@ -1,7 +1,7 @@
 1. Install and run [the latest stable version of Redis](http://redis.io/download). The redis.conf file included in the Redis distribution is suitable for development.
 1. Install Go 1.6.
 1. Download and install Cloud SDK at https://cloud.google.com/sdk/docs/
-1. Add any OS environment variables needed under the env_varialbles section in the included app.yaml file
+1. Add any OS environment variables needed under the env_variables section in the included app.yaml file
 1. Get the source code:
 
         $ git clone https://go.googlesource.com/gddo $GOPATH/src/github.com/golang/gddo
