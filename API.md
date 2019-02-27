@@ -51,6 +51,7 @@ The GoDoc API is comprised of these endpoints:
 	]
 }
 ```
+For example, run `curl https://api.godoc.org/importers/github.com/golang/gddo` to see packages importing this project.
 
 **api.godoc.org/imports/`ImportPath`**&mdash;Returns packages that ImportPath imports, in JSON format. Not recursive, direct imports only.
 
