@@ -18,7 +18,9 @@
 
         $ cd $GOPATH/src/github.com/golang/gddo/gddo-server && \
               go build && \
-              GITHUB_TOKEN=xyzzy123 ./gddo-server
+              GITHUB_TOKEN=<redacted> ./gddo-server
+
+    (Replace `<redacted>` with the personal access token from step 4.)
 
 1. Browse to http://localhost:8080/github.com/golang/gddo/gddo-server
 
